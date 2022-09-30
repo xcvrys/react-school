@@ -1,0 +1,45 @@
+.listElement {
+  display: flex;
+  background-color: #e0e0e0;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+.listElement .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 3vh;
+}
+.listElement .title h4 {
+  color: #222;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.listElement .title div > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.listElement .title div > button i {
+  margin-left: 10px;
+  font-size: 1rem;
+  color: #222;
+}
+.listElement .title div > button i:hover {
+  scale: 1.2;
+}
+.listElement .description {
+  width: 100%;
+}
+.listElement .description p {
+  color: #222;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
