@@ -17,6 +17,7 @@
   height: 3vh;
 }
 .listElement .title h4 {
+  text-transform: uppercase;
   color: #222;
   font-size: 1.2rem;
   font-weight: 600;
